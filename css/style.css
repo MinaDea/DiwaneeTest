@@ -1,0 +1,465 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.header {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+  background-image: url("../img/header-background.png");
+  background-size: 100% 100%;
+}
+.header #logo {
+  float: left;
+}
+.header #logo img {
+  max-width: 150px;
+  height: auto;
+}
+.header #navigation {
+  float: right;
+}
+.header #navigation ul li {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.header #navigation ul li:first-child {
+  margin-left: 0;
+}
+.header #navigation ul li a {
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+}
+.header #navigation ul .icon {
+  display: none;
+}
+.header #navigation ul .responsive-social {
+  display: none;
+}
+.header #header-content {
+  clear: both;
+  text-align: center;
+  width: 100%;
+  padding: 5rem 0 3rem 0;
+  display: block;
+}
+.header #header-content h1 {
+  color: #222222;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+}
+.header #header-content .divider {
+  width: 50px;
+  height: 2px;
+  margin: 2rem auto;
+  background: #c41230;
+}
+.header #header-content p {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about {
+  background: #fbfbfb;
+}
+#about .single-item {
+  text-align: center;
+  width: 33%;
+  float: left;
+}
+#about .single-item h3 {
+  color: #222;
+  letter-spacing: 1px;
+  text-align: center;
+}
+#about .single-item img {
+  padding-top: 5rem;
+  text-align: center;
+  max-width: 80px;
+  height: 80px;
+}
+#about .single-item .divider {
+  width: 50px;
+  height: 2px;
+  margin: 1.5rem auto;
+  background: #d0d0d0;
+}
+#about .single-item p {
+  text-align: center;
+  max-width: 85%;
+  margin: 0 auto;
+  color: #666;
+  padding-bottom: 3rem;
+  font-weight: 300;
+}
+#about .specific {
+  background: #ededed;
+}
+
+#jobs {
+  margin-top: 5rem;
+  overflow: auto;
+  clear: both;
+}
+#jobs h2 {
+  color: #222;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#jobs .divider {
+  width: 50px;
+  height: 2px;
+  background: #c41230;
+  margin: 0 auto 3rem;
+}
+#jobs p {
+  text-align: center;
+  font-weight: lighter;
+  color: #222222;
+  font-size: 22px;
+}
+#jobs #list-jobs {
+  margin: 0 auto;
+}
+#jobs #list-jobs .single-job {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 2rem 0 4rem 0;
+}
+#jobs #list-jobs .single-job .left {
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+#jobs #list-jobs .single-job .left p {
+  text-align: left;
+}
+#jobs #list-jobs .single-job .left h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#jobs #list-jobs .single-job .left .tags {
+  padding-top: 2rem;
+}
+#jobs #list-jobs .single-job .left .tags ul {
+  padding: 0;
+  margin: 0;
+}
+#jobs #list-jobs .single-job .left .tags ul li {
+  display: inline;
+}
+#jobs #list-jobs .single-job .left .tags ul li span {
+  border: 1px solid #bbbbbb;
+  color: #c41230;
+  padding: 10px 15px;
+  border-radius: 2px;
+}
+#jobs #list-jobs .single-job .right {
+  float: right;
+  width: 25%;
+}
+#jobs #list-jobs .single-job .right a {
+  border: 2px solid #222;
+  color: #222;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  border-radius: 2px;
+}
+#jobs #list-jobs .specific {
+  width: 100%;
+  background: #222;
+}
+#jobs #list-jobs .specific .inner {
+  width: 70%;
+  margin: 0 auto;
+}
+#jobs #list-jobs .specific .inner p {
+  color: #FFF;
+}
+#jobs #list-jobs .specific .inner h4 {
+  color: #FFF;
+}
+#jobs #list-jobs .specific .left .tags ul li span {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+#jobs #list-jobs .specific .right a {
+  border: 2px solid #FFF;
+  color: #FFF;
+}
+#jobs .load-more-holder {
+  text-align: center;
+  padding: 6rem 0 9rem 0;
+}
+#jobs .load-more-holder a {
+  background: #eeeeee;
+  color: #333333;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 2rem;
+}
+
+#about-us {
+  background: #fbfbfb;
+}
+#about-us .intro {
+  padding: 3rem 0 1rem 0;
+  color: #999999;
+  text-align: center;
+}
+#about-us h2 {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+#about-us .divider {
+  width: 50px;
+  height: 2px;
+  margin: 2rem auto;
+  background: #c41230;
+}
+#about-us .excerpt {
+  width: 70%;
+  font-weight: 300;
+  line-height: 1.5rem;
+  color: #222;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+}
+
+#social {
+  text-align: center;
+  padding: 2rem 0;
+}
+#social h6 {
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+#social a {
+  color: #FFF;
+  font-size: 1rem;
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+}
+#social .twitter {
+  background: #20b9ff;
+}
+#social .facebook {
+  background: #3c5a9a;
+}
+
+footer {
+  background: #222222;
+  overflow: auto;
+}
+footer .footer-item {
+  padding: 5rem 0;
+  width: 33%;
+  float: left;
+}
+footer .footer-item h4 {
+  color: #FFF;
+}
+footer .footer-item h4 i {
+  color: #c41230;
+  margin-right: 0.8rem;
+}
+footer .footer-item p {
+  color: #666666;
+}
+footer .copyright-area {
+  overflow: auto;
+  clear: both;
+  background: #1e1e1e;
+}
+footer .copyright-area .first {
+  padding: 1rem 0;
+  width: 50%;
+  float: left;
+  color: #666666;
+}
+footer .copyright-area .second {
+  width: 50%;
+  color: #666666;
+  float: right;
+  padding: 1rem 0;
+  text-align: right;
+}
+footer .copyright-area .second a {
+  color: #666666;
+  text-decoration: none;
+}
+footer .copyright-area .second a i {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+footer .copyright-area .second a i:first-child {
+  margin-left: 0;
+}
+footer .copyright-area .second a i:last-child {
+  margin-right: 1rem;
+}
+
+@media (max-width: 767px) {
+  #about .single-item {
+    width: 100%;
+  }
+
+  #jobs .intro {
+    padding: 2rem;
+  }
+  #jobs #list-jobs .single-job {
+    width: 100%;
+    padding: 2rem;
+  }
+  #jobs #list-jobs .single-job .left {
+    width: 95%;
+  }
+  #jobs #list-jobs .single-job .left .tags {
+    padding-top: 2rem;
+  }
+  #jobs #list-jobs .single-job .left .tags ul {
+    padding: 0;
+    margin: 0;
+  }
+  #jobs #list-jobs .single-job .left .tags ul li {
+    display: inline;
+  }
+  #jobs #list-jobs .single-job .left .tags ul li span {
+    border: 0;
+    color: #c41230;
+  }
+  #jobs #list-jobs .single-job .right {
+    display: none;
+  }
+  #jobs #list-jobs .single-job:nth-child(odd) {
+    background: #fbfbfb;
+  }
+  #jobs #list-jobs .single-job:nth-child(even) {
+    background: #FFF;
+  }
+  #jobs #list-jobs .specific .inner {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #jobs #list-jobs .specific .inner p {
+    color: #222;
+  }
+  #jobs #list-jobs .specific .inner h4 {
+    color: #222;
+  }
+
+  footer .footer-item {
+    margin: 0 auto;
+    width: 80%;
+    float: none;
+    padding: 1rem 0;
+  }
+  footer .first {
+    width: 95% !important;
+    font-size: 0.8rem;
+    padding-left: 3rem !important;
+  }
+  footer .second {
+    background: #222222;
+    padding: 0 0 2rem 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+  #jobs #list-jobs .single-job .right a {
+    padding: 1rem 1.5rem;
+  }
+}
+@media (max-width: 1023px) {
+  .header #navigation ul li a {
+    display: none;
+  }
+  .header {
+    padding-top: 0;
+  }
+  .header #logo img {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+  .header #navigation ul .icon a {
+    display: block;
+  }
+  .header .responsive {
+    width: 100%;
+    background: #222;
+    padding: 3rem 0;
+  }
+  .header .responsive ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .header .responsive ul li {
+    width: 100%;
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 2rem;
+  }
+  .header .responsive ul li a {
+    color: #FFF !important;
+    width: 100%;
+    font-weight: 300;
+    display: block !important;
+  }
+  .header .responsive ul .icon {
+    float: right !important;
+    width: 30% !important;
+    text-align: right !important;
+    top: 1rem;
+    right: 1rem;
+  }
+  .header #navigation ul .icon {
+    display: block !important;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+  .header .responsive ul .icon a {
+    color: #333 !important;
+  }
+  .header .responsive ul .responsive-social {
+    margin-top: 2rem;
+    display: block !important;
+    float: right;
+  }
+  .header .responsive ul .responsive-social a span{
+    float: left;
+    margin-left: 1rem;
+  }
+  .header .responsive ul .responsive-social a i {
+    float: right;
+    margin-right: 1rem;
+  }
+}
+
